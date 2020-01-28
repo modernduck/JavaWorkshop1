@@ -34,6 +34,7 @@ public class User {
 	}
 	
 	public static void log(User[] users) {
+		//add to updafte
 		for(int i = 0 ; i < users.length ; i ++)
 			User.log(users[i]);
 	}
